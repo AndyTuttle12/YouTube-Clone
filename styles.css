@@ -55,26 +55,36 @@ body {
 	float: left;
 	width: 355px;
 	margin-top: 45px;
+	border-radius: 2px 0 0 2px;
+	border: 1px solid #dedede;
 }
 
 #search-bar input{
 	width: 350px;
 	height: 24px;
 	line-height: 18px;
+	font-size: 16px;
+	border: none;
 }
 
 #search-button{
 	float: left;
 	width: 60px;
-	height: 30px;
+	height: 28px;
 	background-color: #dedede;
 	margin-top: 45px;
+	border-radius: 0 2px 2px 0;
+	border: none;
+}
+
+#search-button:hover{
+	background-color: #ccc;
 }
 
 #search-button-image{
 	width: 15px;
 	height: 15px;
-	margin: 6px auto;
+	margin: 8px auto;
 	background: no-repeat url('youtube-sprites.webp') 0 -99px;
 	background-size: 435px 425px;
 }
@@ -89,6 +99,8 @@ body {
 	float: left;
 	margin-top: 40px;
 	font-weight: bold;
+	word-spacing: 10px;
+	color: rgba(0, 0, 0, .2)
 }
 
 #lower-right{
