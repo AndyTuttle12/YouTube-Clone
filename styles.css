@@ -1,0 +1,203 @@
+* {
+	font-family: arial;
+}
+
+a {
+	font-family: arial;
+	font-weight: bold;
+	text-decoration: none;
+	color: #167ac6;
+
+}
+
+body {
+	background-color: #dedede;
+	font-family: arial;
+
+}
+
+#youtube-wrapper{
+	max-width: 1140px;
+	width: 90%;
+	height: 100%;
+	margin:  auto;
+	background-color: #fff;
+
+}
+
+#header{
+	height: 160px;
+	width: 100%;
+	background-color: #fff;
+}
+
+#header-left{
+	float: left;
+}
+
+#header-right{
+	float: right;
+}
+
+#youtube-logo{
+	overflow: hidden;
+	float: left;
+	height: 160px;
+	width: 250px;
+}
+
+#youtube-logo img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#search-bar{
+	float: left;
+	width: 355px;
+	margin-top: 45px;
+}
+
+#search-bar input{
+	width: 350px;
+	height: 24px;
+	line-height: 18px;
+}
+
+#search-button{
+	float: left;
+	width: 60px;
+	height: 30px;
+	background-color: #dedede;
+	margin-top: 45px;
+}
+
+#search-button-image{
+	width: 15px;
+	height: 15px;
+	margin: 6px auto;
+	background: no-repeat url('youtube-sprites.webp') 0 -99px;
+	background-size: 435px 425px;
+}
+
+#sign-in{
+	margin: 50px 40px 0 10px;
+	float: right;
+}
+
+#lower-left{
+	clear: left;
+	float: left;
+	margin-top: 40px;
+	font-weight: bold;
+}
+
+#lower-right{
+	clear: right;
+	float: right;
+	margin: 50px 40px 0 0;
+	word-spacing: 20px;
+}
+
+
+
+#main-body{
+	width: 100%;
+	height: 1200px;
+	background-color: #fff;
+}
+
+#main-body-top{
+	float: left;
+	overflow: hidden;
+	width: 64%;
+	height: 380px;
+	background-color: #dedede;
+	margin: 20px;
+}
+
+#main-body-bottom{
+	width: 95%;
+}
+
+#featured{
+	font-weight: 600;
+	padding: 10px;
+}
+
+#featured span{
+	display: block;
+	margin: 10px 0 20px 50px;
+}
+
+#featured-img{
+	max-width: 480px;
+	float: left;
+	margin-left: 30px;
+}
+
+#featured-too{
+	float: left;
+	margin-left: 10px;
+}
+
+.featured-more{
+	font-size: 10px;
+	font-weight: normal;
+	float: right;
+	clear: right;
+	max-width: 300px;
+	margin-bottom: 10px;
+}
+
+.featured-more img{
+	float: left;
+	margin-right: 10px
+}
+
+#pop-up{
+	float: right;
+	width: 32%;
+	height: 300px;
+
+	margin: 20px auto;
+}
+#pop-up-ad img{
+	display: block;
+	width: 90%;
+	margin-bottom: 15px;
+
+}
+
+#more-videos{
+	clear: both;
+	float: left;
+	width: 101.5%;
+	height: 275px;
+	background-color: #efefef;
+	padding: 20px;
+	overflow: hidden;
+}
+
+#more-videos span{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+#more-videos-container{
+	padding: 0px;
+	margin-left: -30px;
+}
+
+.more-bottom{
+	font-size: 9.5px;
+	font-weight: normal;
+	float: right;
+	max-width: 260px;
+	margin: 20px 0 10px 10px;
+}
+
+.more-bottom img{
+	float: left;
+	margin-right: 10px;
+}
